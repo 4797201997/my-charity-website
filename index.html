@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Children's Charity</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional CSS for enhanced styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header, footer {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo img {
+            max-width: 150px;
+            height: auto;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #0056b3;
+        }
+
+        .hero {
+            background-image: url('hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+
+        .hero .cta-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .hero .cta-btn:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            padding: 20px 0;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .footer-links a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+            color: #fff;
+        }
+
+        /* New styles for main content sections */
+        .main-content {
+            padding: 30px 0; /* Reduced padding */
+        }
+
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 15px; /* Reduced margin */
+            color: #333;
+        }
+
+        .section-content {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 20px; /* Reduced margin */
+            color: #555;
+        }
+
+        .cta-section {
+            text-align: center;
+            margin-top: 30px; /* Reduced margin */
+            margin-bottom: 30px; /* Reduced margin */
+        }
+
+        .cta-btn-large {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #ff6600;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.5rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-btn-large:hover {
+            background-color: #cc5500;
+        }
+
+        .about-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px; /* Reduced margin */
+        }
+
+        .impact-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px; /* Reduced margin */
+        }
+
+        .donate-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px; /* Reduced margin */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.PNG" alt="Children's Charity Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About Us.html">About Us</a></li>
+                    <li><a href="Our Campaigns.html">Our Campaigns</a></li>
+                    <li><a href="Contact Us.html">Contact Us</a></li>
+                    <li><a href="Donate Here.html">Donate</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Welcome to Children's Charity</h1>
+                    <p>Empowering children, one smile at a time.</p>
+                    <a href="About Us.html" class="cta-btn">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-content" id="about">
+            <div class="container">
+                <h2 class="section-title">Mission Statement</h2>
+                <p class="section-content">Our mission is to provide education, healthcare, and support to underprivileged children, empowering them to reach their full potential and build a brighter future.</p>
+                <img src="CHARITY.jpg" alt="Charity Image" class="about-image">
+            </div>
+        </section>
+
+        <section class="main-content">
+            <div class="container">
+                <h2 class="section-title">Impact Stories</h2>
+                <p class="section-content">Read inspiring stories of how Children's Charity has positively impacted the lives of children and communities through our programs and initiatives.</p>
+                <img src="CHILDREN.jpg" alt="Children Image" class="impact-image">
+            </div>
+        </section>
+
+        <section class="main-content">
+            <div class="container">
+                <h2 class="section-title">Latest News</h2>
+                <p class="section-content">Stay updated with the latest news, events, and achievements of Children's Charity in our ongoing mission to make a difference.</p>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <a href="under_construction.html" class="cta-btn">Donate</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Use</a>
+                <a href="#social">Follow Us</a>
+            </div>
+            <div class="contact-info">
+                <p>Email: info@childrenscharity.org</p>
+                <p>Phone: +1-123-456-7890</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
